@@ -43,6 +43,13 @@ def authenticate_interactively(auth, email):
         errors = result.get('errors') or []
         if 'LAUNCHER_INSTALLATION_MISSING' in errors:
             print('Yerel Gameforge istemcisi bulunamadi. Resmi istemciyi kurup acin.')
+        elif 'CHALLENGE_REQUIRED' in errors:
+            print('Gameforge bu giris icin dogrulama (captcha) istiyor; sifreniz yanlis degil.')
+            print('Ayni bilgisayar ve internet baglantisiyla resmi Gameforge istemcisinden')
+            print('bir kez giris yapip captcha\'yi orada cozun, sonra tekrar deneyin.')
+            print('VPN kullaniyorsaniz kapatin; cok deneme yaptiysaniz bir sure bekleyin.')
+            print('Konsolda "taklit blackbox" uyarisi goruyorsaniz Edge/Chrome kurun veya')
+            print('"python -m playwright install chromium" calistirin.')
         else:
             print('Giris tamamlanamadi; hata turleri:', errors)
         return False
