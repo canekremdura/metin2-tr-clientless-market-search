@@ -82,7 +82,7 @@ class GfAuth:
         self.email = ""
         self._load_session()
         # Fallback launcher version; this is not a Chromium version.
-        self.chrome_version = "C3.0.4.2238"
+        self.chrome_version = "C3.0.7.2248"
         self.gameforge_version = ""
         self.cert = self._load_cert()
         self.game_session_id = ""

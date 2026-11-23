@@ -59,6 +59,21 @@ profile yazılmaz.
 Kök dizindeki `Clientless-Baslat.cmd` aynı komutu çalıştırır. Ayrıntılar:
 [Başlatıcı](docs/BASLATICI.md).
 
+### Giriş hatası: `CHALLENGE_REQUIRED` (captcha)
+
+E-posta ve şifre doğru olduğu hâlde `Giris tamamlanamadi; hata turleri:
+['CHALLENGE_REQUIRED', 'SERVICE_ERROR']` görüyorsanız, Gameforge bu giriş için
+captcha istiyor demektir. Araç captcha çözmez. Bu durum genelde yeni bir IP
+ya da cihazdan girişte, VPN kullanırken veya kısa sürede çok deneme yapıldığında
+ortaya çıkar.
+
+1. Aynı bilgisayar ve aynı internet bağlantısıyla resmi Gameforge istemcisinden
+   bir kez giriş yapın. Captcha çıkarsa orada çözün, sonra aracı tekrar deneyin.
+2. VPN kullanıyorsanız kapatın. Çok deneme yaptıysanız bir süre bekleyin.
+3. Konsolda `taklit blackbox` ya da `gercek blackbox basarisiz` uyarısı
+   görüyorsanız Edge/Chrome kurun veya
+   `.\.venv\Scripts\python.exe -m playwright install chromium` çalıştırın.
+
 ### Pazar tarama
 
 Tek arama seçeneği yerel bir arama kaydı ister. Linux pazar süreci de

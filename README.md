@@ -33,6 +33,14 @@ On the first run, sign in with Gameforge, choose a Metin2 account and server, an
 
 The standard launcher does not require Frida. The optional one-off market search requires a local decoded search record. The Linux market worker requires a prepared local session file. Neither input is bundled.
 
+### Login error: `CHALLENGE_REQUIRED` (captcha)
+
+If your email and password are correct but you see `Giris tamamlanamadi; hata turleri: ['CHALLENGE_REQUIRED', 'SERVICE_ERROR']`, Gameforge is asking for a captcha on this sign-in. This tool does not solve captchas. It usually happens on a new IP or device, behind a VPN, or after many attempts in a short time.
+
+1. Sign in once with the official Gameforge client on the same PC and network. If a captcha appears, solve it there, then try the tool again.
+2. Turn off any VPN. If you made many attempts, wait a while.
+3. If the console shows `taklit blackbox` or `gercek blackbox basarisiz`, install Edge or Chrome, or run `.\.venv\Scripts\python.exe -m playwright install chromium`.
+
 ## Offline tests
 
 ```powershell
