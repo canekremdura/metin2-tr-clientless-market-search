@@ -1,0 +1,532 @@
+{
+  "version": 1,
+  "base_plan_count": 76,
+  "notes": [
+    "Own 76-scope policy, expanded hair and weapon appearances by requested classes.",
+    "Wedding and event items are separate native categories; both retained.",
+    "Sword coverage follows user policy; prior live Sura query had a different total, so equivalence is unverified.",
+    "Weapon appearances use four supported class queries covering seven weapon families; no invented weapon/sex filter."
+  ],
+  "scopes": [
+    {
+      "job": 0,
+      "category": 2,
+      "sub": 0,
+      "label": "Savaşçı / Silahlar / Tek Elli Silah"
+    },
+    {
+      "job": 0,
+      "category": 2,
+      "sub": 3,
+      "label": "Savaşçı / Silahlar / Çift Elli Silahlar"
+    },
+    {
+      "job": 1,
+      "category": 2,
+      "sub": 1,
+      "label": "Ninja / Silahlar / Hançerler"
+    },
+    {
+      "job": 1,
+      "category": 2,
+      "sub": 2,
+      "label": "Ninja / Silahlar / Yaylar"
+    },
+    {
+      "job": 3,
+      "category": 2,
+      "sub": 4,
+      "label": "Şaman / Silahlar / Çanlar"
+    },
+    {
+      "job": 3,
+      "category": 2,
+      "sub": 6,
+      "label": "Şaman / Silahlar / Yelpazeler"
+    },
+    {
+      "job": 4,
+      "category": 2,
+      "sub": 5,
+      "label": "Lycan / Silahlar / Pençe"
+    },
+    {
+      "job": 0,
+      "category": 3,
+      "sub": 0,
+      "label": "Savaşçı / Ekipmanlar / Zırhlar"
+    },
+    {
+      "job": 0,
+      "category": 3,
+      "sub": 1,
+      "label": "Savaşçı / Ekipmanlar / Miğferler"
+    },
+    {
+      "job": 0,
+      "category": 10,
+      "sub": 1,
+      "label": "Savaşçı / Beceriler / Beceri Kitapları"
+    },
+    {
+      "job": 0,
+      "category": 10,
+      "sub": 2,
+      "label": "Savaşçı / Beceriler / Unutkanlık Kitapları"
+    },
+    {
+      "job": 1,
+      "category": 3,
+      "sub": 0,
+      "label": "Ninja / Ekipmanlar / Zırhlar"
+    },
+    {
+      "job": 1,
+      "category": 3,
+      "sub": 1,
+      "label": "Ninja / Ekipmanlar / Miğferler"
+    },
+    {
+      "job": 1,
+      "category": 10,
+      "sub": 1,
+      "label": "Ninja / Beceriler / Beceri Kitapları"
+    },
+    {
+      "job": 1,
+      "category": 10,
+      "sub": 2,
+      "label": "Ninja / Beceriler / Unutkanlık Kitapları"
+    },
+    {
+      "job": 2,
+      "category": 3,
+      "sub": 0,
+      "label": "Sura / Ekipmanlar / Zırhlar"
+    },
+    {
+      "job": 2,
+      "category": 3,
+      "sub": 1,
+      "label": "Sura / Ekipmanlar / Miğferler"
+    },
+    {
+      "job": 2,
+      "category": 10,
+      "sub": 1,
+      "label": "Sura / Beceriler / Beceri Kitapları"
+    },
+    {
+      "job": 2,
+      "category": 10,
+      "sub": 2,
+      "label": "Sura / Beceriler / Unutkanlık Kitapları"
+    },
+    {
+      "job": 3,
+      "category": 3,
+      "sub": 0,
+      "label": "Şaman / Ekipmanlar / Zırhlar"
+    },
+    {
+      "job": 3,
+      "category": 3,
+      "sub": 1,
+      "label": "Şaman / Ekipmanlar / Miğferler"
+    },
+    {
+      "job": 3,
+      "category": 10,
+      "sub": 1,
+      "label": "Şaman / Beceriler / Beceri Kitapları"
+    },
+    {
+      "job": 3,
+      "category": 10,
+      "sub": 2,
+      "label": "Şaman / Beceriler / Unutkanlık Kitapları"
+    },
+    {
+      "job": 4,
+      "category": 3,
+      "sub": 0,
+      "label": "Lycan / Ekipmanlar / Zırhlar"
+    },
+    {
+      "job": 4,
+      "category": 3,
+      "sub": 1,
+      "label": "Lycan / Ekipmanlar / Miğferler"
+    },
+    {
+      "job": 4,
+      "category": 10,
+      "sub": 1,
+      "label": "Lycan / Beceriler / Beceri Kitapları"
+    },
+    {
+      "job": 4,
+      "category": 10,
+      "sub": 2,
+      "label": "Lycan / Beceriler / Unutkanlık Kitapları"
+    },
+    {
+      "job": 0,
+      "category": 3,
+      "sub": 2,
+      "label": "Savaşçı / Ekipmanlar / Kalkanlar"
+    },
+    {
+      "job": 0,
+      "category": 3,
+      "sub": 3,
+      "label": "Savaşçı / Ekipmanlar / Eldiven"
+    },
+    {
+      "job": 0,
+      "category": 1,
+      "sub": 0,
+      "label": "Savaşçı / Binekler | Petler / Binekler"
+    },
+    {
+      "job": 0,
+      "category": 1,
+      "sub": 1,
+      "label": "Savaşçı / Binekler | Petler / Petler"
+    },
+    {
+      "job": 0,
+      "category": 1,
+      "sub": 2,
+      "label": "Savaşçı / Binekler | Petler / Seviye Atlayabilen Petler"
+    },
+    {
+      "job": 0,
+      "category": 1,
+      "sub": 3,
+      "label": "Savaşçı / Binekler | Petler / Pet Yumurtaları"
+    },
+    {
+      "job": 0,
+      "category": 4,
+      "sub": 0,
+      "label": "Savaşçı / Mücevher / Bilezikler"
+    },
+    {
+      "job": 0,
+      "category": 4,
+      "sub": 1,
+      "label": "Savaşçı / Mücevher / Ayakkabılar"
+    },
+    {
+      "job": 0,
+      "category": 4,
+      "sub": 2,
+      "label": "Savaşçı / Mücevher / Kolyeler"
+    },
+    {
+      "job": 0,
+      "category": 4,
+      "sub": 3,
+      "label": "Savaşçı / Mücevher / Küpeler"
+    },
+    {
+      "job": 0,
+      "category": 4,
+      "sub": 4,
+      "label": "Savaşçı / Mücevher / Kemerler"
+    },
+    {
+      "job": 0,
+      "category": 4,
+      "sub": 5,
+      "label": "Savaşçı / Mücevher / Tılsım"
+    },
+    {
+      "job": 0,
+      "category": 5,
+      "sub": 0,
+      "label": "Savaşçı / Geliştirmeler / Malzemeler"
+    },
+    {
+      "job": 0,
+      "category": 5,
+      "sub": 1,
+      "label": "Savaşçı / Geliştirmeler / Zihin Taşları"
+    },
+    {
+      "job": 0,
+      "category": 5,
+      "sub": 2,
+      "label": "Savaşçı / Geliştirmeler / Diğerleri"
+    },
+    {
+      "job": 0,
+      "category": 5,
+      "sub": 3,
+      "label": "Savaşçı / Geliştirmeler / Başarı şansını yükselt"
+    },
+    {
+      "job": 0,
+      "category": 6,
+      "sub": 0,
+      "label": "Savaşçı / İksirler / Kullanım Malları"
+    },
+    {
+      "job": 0,
+      "category": 6,
+      "sub": 1,
+      "label": "Savaşçı / İksirler / Saç Renkleri"
+    },
+    {
+      "job": 0,
+      "category": 6,
+      "sub": 2,
+      "label": "Savaşçı / İksirler / Diğerleri"
+    },
+    {
+      "job": 0,
+      "category": 7,
+      "sub": 0,
+      "label": "Savaşçı / Balıkçılık | Madencilik / Oltalar"
+    },
+    {
+      "job": 0,
+      "category": 7,
+      "sub": 1,
+      "label": "Savaşçı / Balıkçılık | Madencilik / Kazmalar"
+    },
+    {
+      "job": 0,
+      "category": 7,
+      "sub": 2,
+      "label": "Savaşçı / Balıkçılık | Madencilik / Balıklar"
+    },
+    {
+      "job": 0,
+      "category": 7,
+      "sub": 3,
+      "label": "Savaşçı / Balıkçılık | Madencilik / Cevherler"
+    },
+    {
+      "job": 0,
+      "category": 8,
+      "sub": 0,
+      "label": "Savaşçı / Ejderha Taşı Simyası / Elmas"
+    },
+    {
+      "job": 0,
+      "category": 8,
+      "sub": 1,
+      "label": "Savaşçı / Ejderha Taşı Simyası / Yakut"
+    },
+    {
+      "job": 0,
+      "category": 8,
+      "sub": 2,
+      "label": "Savaşçı / Ejderha Taşı Simyası / Yeşim"
+    },
+    {
+      "job": 0,
+      "category": 8,
+      "sub": 3,
+      "label": "Savaşçı / Ejderha Taşı Simyası / Safir"
+    },
+    {
+      "job": 0,
+      "category": 8,
+      "sub": 4,
+      "label": "Savaşçı / Ejderha Taşı Simyası / Grena"
+    },
+    {
+      "job": 0,
+      "category": 8,
+      "sub": 5,
+      "label": "Savaşçı / Ejderha Taşı Simyası / Oniks"
+    },
+    {
+      "job": 0,
+      "category": 8,
+      "sub": 6,
+      "label": "Savaşçı / Ejderha Taşı Simyası / Ametist"
+    },
+    {
+      "job": 0,
+      "category": 8,
+      "sub": 7,
+      "label": "Savaşçı / Ejderha Taşı Simyası / Diğerleri"
+    },
+    {
+      "job": 0,
+      "category": 10,
+      "sub": 0,
+      "label": "Savaşçı / Beceriler / Misilleme | Güçlendirme"
+    },
+    {
+      "job": 0,
+      "category": 10,
+      "sub": 3,
+      "label": "Savaşçı / Beceriler / Diğerleri"
+    },
+    {
+      "job": 0,
+      "category": 10,
+      "sub": 4,
+      "label": "Savaşçı / Beceriler / At beceri kitabı"
+    },
+    {
+      "job": 0,
+      "category": 11,
+      "sub": 0,
+      "label": "Savaşçı / Özel Eşyalar / Tüketim Malları"
+    },
+    {
+      "job": 0,
+      "category": 11,
+      "sub": 1,
+      "label": "Savaşçı / Özel Eşyalar / Diğerleri"
+    },
+    {
+      "job": 0,
+      "category": 12,
+      "sub": 0,
+      "label": "Savaşçı / Diğerleri / Sandıklar | Kutular"
+    },
+    {
+      "job": 0,
+      "category": 12,
+      "sub": 1,
+      "label": "Savaşçı / Diğerleri / Düğün"
+    },
+    {
+      "job": 0,
+      "category": 12,
+      "sub": 2,
+      "label": "Savaşçı / Diğerleri / Etkinlik Eşyaları"
+    },
+    {
+      "job": 0,
+      "category": 12,
+      "sub": 3,
+      "label": "Savaşçı / Diğerleri / Ruha Bağlama"
+    },
+    {
+      "job": 0,
+      "category": 12,
+      "sub": 4,
+      "label": "Savaşçı / Diğerleri / Savaş Becerisi Kitapları"
+    },
+    {
+      "job": 0,
+      "category": 12,
+      "sub": 5,
+      "label": "Savaşçı / Diğerleri / Dönüşüm Küreleri"
+    },
+    {
+      "job": 0,
+      "category": 12,
+      "sub": 6,
+      "label": "Savaşçı / Diğerleri / İksir Oluşturma"
+    },
+    {
+      "job": 0,
+      "category": 12,
+      "sub": 7,
+      "label": "Savaşçı / Diğerleri / Diğerleri"
+    },
+    {
+      "job": 0,
+      "category": 9,
+      "sub": 0,
+      "label": "Savaşçı / Kostümler / Silah Görünümleri",
+      "coverage": [
+        "sword",
+        "two_handed"
+      ]
+    },
+    {
+      "job": 1,
+      "category": 9,
+      "sub": 0,
+      "label": "Ninja / Kostümler / Silah Görünümleri",
+      "coverage": [
+        "sword",
+        "dagger",
+        "bow"
+      ]
+    },
+    {
+      "job": 3,
+      "category": 9,
+      "sub": 0,
+      "label": "Şaman / Kostümler / Silah Görünümleri",
+      "coverage": [
+        "bell",
+        "fan"
+      ]
+    },
+    {
+      "job": 4,
+      "category": 9,
+      "sub": 0,
+      "label": "Lycan / Kostümler / Silah Görünümleri",
+      "coverage": [
+        "claw"
+      ]
+    },
+    {
+      "job": 0,
+      "category": 9,
+      "sub": 2,
+      "label": "Savaşçı / Kostümler / Saç Modelleri"
+    },
+    {
+      "job": 1,
+      "category": 9,
+      "sub": 2,
+      "label": "Ninja / Kostümler / Saç Modelleri"
+    },
+    {
+      "job": 2,
+      "category": 9,
+      "sub": 2,
+      "label": "Sura / Kostümler / Saç Modelleri"
+    },
+    {
+      "job": 3,
+      "category": 9,
+      "sub": 2,
+      "label": "Şaman / Kostümler / Saç Modelleri"
+    },
+    {
+      "job": 4,
+      "category": 9,
+      "sub": 2,
+      "label": "Lycan / Kostümler / Saç Modelleri"
+    },
+    {
+      "job": 0,
+      "category": 9,
+      "sub": 1,
+      "label": "Savaşçı / Kostümler / Kostümler"
+    },
+    {
+      "job": 0,
+      "category": 9,
+      "sub": 3,
+      "label": "Savaşçı / Kostümler / Omuz Kuşakları"
+    },
+    {
+      "job": 0,
+      "category": 9,
+      "sub": 4,
+      "label": "Savaşçı / Kostümler / Diğerleri"
+    },
+    {
+      "job": 0,
+      "category": 9,
+      "sub": 5,
+      "label": "Savaşçı / Kostümler / Auralar"
+    }
+  ]
+}

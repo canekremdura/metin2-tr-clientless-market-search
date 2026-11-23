@@ -1,0 +1,29 @@
+{
+  "verified": true,
+  "sort_offset": 55,
+  "sort_value": 2,
+  "build_sha256": "b573b7e55ce110e3b6ac6110e1f800c26f7a829be3a849c4fc64debf4aaed48b",
+  "source": "User selected En yeniler in normal current client; correlated one search and page 2/3 requests and responses.",
+  "changed_offsets_against_prior_native_query": [
+    55
+  ],
+  "native_pages": [
+    {
+      "page": 1,
+      "count": 11,
+      "total": 1538
+    },
+    {
+      "page": 2,
+      "count": 11,
+      "total": 1538
+    },
+    {
+      "page": 3,
+      "count": 11,
+      "total": 1538
+    }
+  ],
+  "search_body_sha256": "8a770bdfbfcd0d8d5db1a719d46694d308ca9fd596864495af311c24f7d0d2bf",
+  "limitations": "First three pages are partial coverage; new entries may move during scanning."
+}
